@@ -1,4 +1,4 @@
-title:            Shawn.tai
+title:            茶客ぶる声
 description:      Personal site of Shawn.Tai.
 disqus_shortname: 
 reading_time:     true
@@ -10,13 +10,13 @@ url:
 # Owner/author information
 owner:
   name:           Shawn.Tai
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  avatar:         myphoto.jpg
+  bio:            "一个ukulele爱好者，云计算的dev-ops."
+  email:          shawntai.ds@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
-  github:         
+  facebook:       shawntai.daisheng@gmail.com
+  github:         seethedoor
   stackexchange:  
   linkedin:       
   instagram:      
