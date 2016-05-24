@@ -22,7 +22,7 @@ Remote Procedure Call， 远程过程调用， 一种常用的分布式系统接
 
 # how to use python xml-RPC?
 
-server端脚本如下:
+这里做了个最简单的例子，实现了加减乘除四个方法。server端脚本如下:
 
 {% highlight css %}
 # -*- coding:utf-8 -*-
@@ -51,7 +51,7 @@ server.register_function(divide, 'divide')
 server.serve_forever()
 {% endhighlight %}
 
-client端脚本如下：
+client端则远程调用这四个函数并且打印结果，脚本如下：
 
 {% highlight css %}
 # -*- coding:utf-8 -*-
@@ -71,21 +71,3 @@ print "7+3=%d, 7-3=%d, 7*3=%d, 7/3=%d" % tuple(result)
 {% endhighlight %}
 
 
-
-
-
-
-
-
-
-Make any link standout more when applying the `.btn` class.
-
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
